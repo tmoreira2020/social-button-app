@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!--
+
+    Copyright (C) 2015 Thiago Moreira (tmoreira2020@gmail.com)
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0">
+	<portlet>
+		<portlet-name>socialbuttons-portlet</portlet-name>
+		<display-name>socialbuttons-portlet</display-name>
+		<portlet-class>com.liferay.util.bridges.mvc.MVCPortlet</portlet-class>
+		<init-param>
+			<name>view-template</name>
+			<value>/view.jsp</value>
+		</init-param>
+		<init-param>
+			<name>config-template</name>
+			<value>/configuration.jsp</value>
+		</init-param>
+		<init-param>
+			<name>adn-url</name>
+			<value>https://alpha.app.net/username</value>
+		</init-param>
+		<init-param>
+			<name>bitbucket-url</name>
+			<value>https://bitbucket.org/username</value>
+		</init-param>
+		<init-param>
+			<name>facebook-url</name>
+			<value>https://www.facebook.com/username</value>
+		</init-param>
+		<init-param>
+			<name>flickr-url</name>
+			<value>https://www.flickr.com/photos/username</value>
+		</init-param>
+		<init-param>
+			<name>foursquare-url</name>
+			<value>https://foursquare.com/username</value>
+		</init-param>
+		<init-param>
+			<name>github-url</name>
+			<value>https://github.com/username</value>
+		</init-param>
+		<init-param>
+			<name>google-plus-url</name>
+			<value>https://plus.google.com/username</value>
+		</init-param>
+		<init-param>
+			<name>instagram-url</name>
+			<value>http://instagram.com/username</value>
+		</init-param>
+		<init-param>
+			<name>linkedin-url</name>
+			<value>https://www.linkedin.com/in/username</value>
+		</init-param>
+		<init-param>
+			<name>pinterest-url</name>
+			<value>http://www.pinterest.com/username</value>
+		</init-param>
+		<init-param>
+			<name>tumblr-url</name>
+			<value>http://username.tumblr.com</value>
+		</init-param>
+		<init-param>
+			<name>twitter-url</name>
+			<value>https://twitter.com/username</value>
+		</init-param>
+		<init-param>
+			<name>vk-url</name>
+			<value>http://vk.com/username</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+		</supports>
+		<resource-bundle>content/Language</resource-bundle>
+		<portlet-info>
+			<title>Social Buttons</title>
+			<short-title>Social Buttons</short-title>
+			<keywords></keywords>
+		</portlet-info>
+		<security-role-ref>
+			<role-name>administrator</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>guest</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>power-user</role-name>
+		</security-role-ref>
+		<security-role-ref>
+			<role-name>user</role-name>
+		</security-role-ref>
+	</portlet>
+</portlet-app>
