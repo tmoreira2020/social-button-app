@@ -22,12 +22,12 @@
 	<parent>
 		<groupId>br.com.thiagomoreira</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.5-SNAPSHOT</version>
+		<version>0.5</version>
 	</parent>
 
 	<groupId>br.com.thiagomoreira.liferay.plugins.social-button-app</groupId>
 	<artifactId>social-button-app-parent</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<packaging>pom</packaging>
 
 	<name>Social Button App Parent</name>
@@ -44,7 +44,7 @@
 		<connection>scm:git:git@github.com:tmoreira2020/social-button-app.git</connection>
 		<developerConnection>scm:git:git@github.com:tmoreira2020/social-button-app.git</developerConnection>
 		<url>https://github.com/tmoreira2020/social-button-app</url>
-		<tag>HEAD</tag>
+		<tag>social-button-app-1.0.1</tag>
 	</scm>
 
 	<properties>
