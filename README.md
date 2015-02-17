@@ -19,7 +19,7 @@ Maven:
 <dependency>
     <groupId>br.com.thiagomoreira.liferay.plugins.social-button-app</groupId>
     <artifactId>social-button-app</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <type>lpkg</type>
 </dependency>
 ```
@@ -27,7 +27,7 @@ Gradle:
 
 ```groovy
 dependencies {
-    compile(group: "br.com.thiagomoreira.liferay.plugins.social-button-app", name: "social-button-portlet", version: "0.0.1", type: "lpkg");
+    compile(group: "br.com.thiagomoreira.liferay.plugins.social-button-app", name: "social-button-portlet", version: "1.0.0", type: "lpkg");
 }
 ```
 ### Support
