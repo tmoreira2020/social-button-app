@@ -20,6 +20,6 @@
 
 <display>
 	<category name="category.thiagomoreira">
-		<portlet id="social-buttons-portlet" />
+		<portlet id="social-button-portlet" />
 	</category>
 </display>
