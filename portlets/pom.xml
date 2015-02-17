@@ -22,7 +22,7 @@
 	<parent>
 		<groupId>br.com.thiagomoreira.liferay.plugins.social-button-app</groupId>
 		<artifactId>social-button-app-parent</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>portlets</artifactId>
