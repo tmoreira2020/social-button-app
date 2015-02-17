@@ -60,7 +60,7 @@
 				<executions>
 					<execution>
 						<id>attach-instrumented-jar</id>
-						<phase>verify</phase>
+						<phase>package</phase>
 						<goals>
 							<goal>attach-artifact</goal>
 						</goals>
