@@ -42,6 +42,7 @@
 				<include>br.com.thiagomoreira.liferay.plugins.social-button-app:*:war:${project.version}</include>
 			</includes>
 			<binaries>
+				<includeDependencies>false</includeDependencies>
 				<outputDirectory>/</outputDirectory>
 				<unpack>false</unpack>
 			</binaries>
