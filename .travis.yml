@@ -1,1 +1,17 @@
 language: java
+
+env:
+  global:
+   # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
+   #   via the "travis encrypt" command using the project repo's public key
+   - secure: "SGr9Z+pWfRHLMXBvz0wqleeuOibcE7RxtWXB/KYJdcDq6K5Lt8mPdb2DXa9yEfx7OhEmYPbwIa6EfsUeXx08b7X9zf89vRUZui29LtYN55yUQqp0KB+EyflsZQSJtTbanMFmBGKF34ppRo8T4OCD14BZxEOXNUk/feEqJ1NvZOg="
+
+addons:
+  coverity_scan:
+    project:
+      name: "tmoreira2020/social-button-app"
+      description: "Build submitted via Travis CI"
+    notification_email: tmoreira2020@gmail.com
+    build_command_prepend: "mvn clean"
+    build_command:   "mvn -DskipTests=true compile"
+    branch_pattern: coverity_scan
